@@ -131,17 +131,22 @@ void render_layer(uint8_t layer) {
     render_layer_helper_fun(0, PSTR("LAYER:"), 12, 6);
     switch (layer) {
         case 0:
-            render_layer_helper_fun(1, PSTR("1:HOME"), 12, 6);
+            render_layer_helper_fun(1, PSTR("1:BASE"), 12, 6);
             break;
         case 1:
-            render_layer_helper_fun(1, PSTR("2:CODE"), 12, 6);
+            render_layer_helper_fun(1, PSTR("2:NAV"), 12, 6);
             break;
         case 2:
-            render_layer_helper_fun(1, PSTR("3:OFFICE"), 0, 8);
+            render_layer_helper_fun(1, PSTR("3:MEDIA"), 12, 6);
             break;
         case 3:
+            render_layer_helper_fun(1, PSTR("4:SYM"), 12, 6);
+            break;
+        case 4:
+            render_layer_helper_fun(1, PSTR("5:FUN"), 12, 6);
+            break;
         default:
-            render_layer_helper_fun(1, PSTR("4:OTHERS"), 0, 8);
+            render_layer_helper_fun(1, PSTR("UNKNOWN"), 6, 7);
             break;
     }
 }
