@@ -148,6 +148,9 @@ void render_layer(uint8_t layer) {
         case 5:
             render_layer_helper_fun(1, PSTR("5:FUN"), 12, 6);
             break;
+        case 6:
+            render_layer_helper_fun(1, PSTR("6:GAME"), 12, 6);
+            break;
         default:
             render_layer_helper_fun(1, PSTR("UNKNOWN"), 6, 7);
             break;
