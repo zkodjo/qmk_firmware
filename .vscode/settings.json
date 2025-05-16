@@ -24,11 +24,27 @@
         "editor.trimAutoWhitespace": false,
         "files.trimTrailingWhitespace": false
     },
-    "python.formatting.provider": "yapf",
     "[json]": {
         "editor.formatOnSave": false
     },
-    "clangd.arguments": [
-        "--header-insertion=never"
-    ]
+    "[python]": {
+        "editor.formatOnSaveMode": "file",
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "eeyore.yapf",
+        "editor.formatOnType": false
+    },
+    "clangd.arguments": ["--header-insertion=never"],
+    "[c]": {
+        "editor.wordWrap": "off",
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4,
+        "editor.formatOnSave": false,
+        "editor.detectIndentation": false,
+        "editor.trimAutoWhitespace": false
+    },
+    "files.trimTrailingWhitespace": false,
+    "git.enabled": true,
+    "editor.renderWhitespace": "all",
+    "files.eol": "\n",
+    "makefile.configureOnOpen": false
 }
