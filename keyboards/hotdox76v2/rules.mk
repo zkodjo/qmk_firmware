@@ -25,6 +25,6 @@ MUSIC_ENABLE = no
 # Add this - crucial for memory optimization
 EXTRAFLAGS += -flto
 SPLIT_KEYBOARD = yes
-CAPS_WORD_ENABLE = yes
+CAPS_WORD_ENABLE = no
 SPACE_CADET_ENABLE = no
 GRAVE_ESC_ENABLE = no

@@ -36,7 +36,7 @@
 // fixes tapping term for macros
 #undef TAPPING_TERM
 
-#define TAPPING_TERM 180
+#define TAPPING_TERM 170
 #define QUICK_TAP_TERM 0
 
 #define RGB_MATRIX_MAXIMUM_BRIGHTNESS 170
